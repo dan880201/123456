@@ -1,0 +1,36 @@
+----part 1 start----
+[ 2022-05-24T12:17:52.270     1000:  1371:  1371 I/LSPosed-Bridge  ] Loading module com.tsng.hidemyapplist from /data/app/~~1XAXrOg8TR2uJcRKCCmkpA==/com.tsng.hidemyapplist-UF7KSmcctgN0AxFH4gu3yg==/base.apk
+[ 2022-05-24T12:17:52.578     1000:  1371:  1371 I/LSPosed-Bridge  ]   Loading class com.tsng.hidemyapplist.xposed.XposedEntry
+[ 2022-05-24T12:17:52.594     1000:  1371:  1371 I/LSPosed-Bridge  ] Loading module com.jozein.xedgepro from /data/app/~~5IeO66EJy5r_zaoFGhtdxg==/com.jozein.xedgepro-PucJG8qVq0kSi8YnXm9aIQ==/base.apk
+[ 2022-05-24T12:17:52.597     1000:  1371:  1371 I/LSPosed-Bridge  ]   Loading class com.jozein.xedgepro.xposed.HookMain
+[ 2022-05-24T12:17:52.960     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] Config initialized
+[ 2022-05-24T12:17:52.979     1000:  1371:  1371 I/LSPosed-Bridge  ] [XEdgePro] Xposed-edge-pro-v7.0.1. 
+    realme-RMX2202, RMX2202CN, Android 11, SDK 30, ROM: RMX2202_11_A.16(RKQ1.201105.002), SELinux enforced.
+[ 2022-05-24T12:17:52.986     1000:  1371:  1371 I/LSPosed-Bridge  ] [XEdgePro] Cannot load settings!
+[ 2022-05-24T12:17:53.018     1000:  1371:  1371 I/LSPosed-Bridge  ] [XEdgePro] System hooked.
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+[ 2022-05-24T12:17:55.700     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] System hook installed (Version 73)
+[ 2022-05-24T12:17:55.700     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] Data directory is at /data/system/hide_my_applist_mipdhleadzafqknk
+[ 2022-05-24T12:17:55.700     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] Non-AOSP PMS com.android.server.pm.OplusPackageManagerService
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+[ 2022-05-24T12:18:05.172    10317:  6096:  6096 I/LSPosed-Bridge  ] Loading module com.jozein.xedgepro from /data/app/~~5IeO66EJy5r_zaoFGhtdxg==/com.jozein.xedgepro-PucJG8qVq0kSi8YnXm9aIQ==/base.apk
+[ 2022-05-24T12:18:05.176    10317:  6096:  6096 I/LSPosed-Bridge  ]   Loading class com.jozein.xedgepro.xposed.HookMain
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+[ 2022-05-24T12:18:56.792    10387:  9828:  9828 I/LSPosed-Bridge  ] Loading module github.tornaco.android.thanos.pro from /data/app/~~6NLz2fJAM5pPaMI05m3EjQ==/github.tornaco.android.thanos.pro-WPIv4Q9ijswsJudVVQQMiA==/base.apk
+[ 2022-05-24T12:18:56.940    10387:  9828:  9828 I/LSPosed-Bridge  ]   Loading class github.tornaco.android.thanos.services.xposed.XposedHookEntry
+[ 2022-05-24T12:18:57.029    10387:  9828:  9828 I/LSPosed-Bridge  ] hookSystemServiceRegistry, unhooks=[de.robv.android.xposed.XC_MethodHook$Unhook@b67e614]
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
+
+Logd crashed too many times, trying manually start...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...

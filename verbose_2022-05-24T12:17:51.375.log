@@ -1,0 +1,325 @@
+----part 1 start----
+[ 1970-01-19T17:08:12.369        0:   618:   618 F/libc            ] Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 618 (init), pid 618 (init)
+[ 1970-01-19T17:08:12.378        0:   618:   618 F/libc            ] crash_dump helper failed to exec
+[ 1970-01-19T17:08:12.379        0:   628:   628 F/libc            ] Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 628 (init), pid 628 (init)
+[ 1970-01-19T17:08:12.383        0:   628:   628 F/libc            ] crash_dump helper failed to exec
+[ 1970-01-19T17:08:13.215        0:   762:   762 I/Magisk          ] Magisk 24.3(24300) daemon started
+[ 1970-01-19T17:08:13.215        0:   762:   762 I/Magisk          ] * Device API level: 30
+[ 1970-01-19T17:08:13.225        0:   762:   764 I/Magisk          ] ** post-fs-data mode running
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] * Mounting mirrors
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] link: /dev/hEgoZ/.magisk/mirror/metadata
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] mount: /dev/hEgoZ/.magisk/mirror/system_ext
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] mount: /dev/hEgoZ/.magisk/mirror/product
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] mount: /dev/hEgoZ/.magisk/mirror/vendor
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] link: /dev/hEgoZ/.magisk/mirror/persist
+[ 1970-01-19T17:08:13.226        0:   762:   764 I/Magisk          ] mount: /dev/hEgoZ/.magisk/mirror/data
+[ 1970-01-19T17:08:13.227        0:   762:   764 I/Magisk          ] link: /dev/hEgoZ/.magisk/mirror/system
+[ 1970-01-19T17:08:13.227        0:   762:   764 I/Magisk          ] mount: /dev/hEgoZ/.magisk/mirror/system_root
+[ 1970-01-19T17:08:13.227        0:   762:   764 I/Magisk          ] * Initializing Magisk environment
+[ 1970-01-19T17:08:13.242        0:   762:   764 I/Magisk          ] * Running post-fs-data.d scripts
+[ 1970-01-19T17:08:13.269        0:   762:   764 I/Magisk          ] * Running module post-fs-data scripts
+[ 1970-01-19T17:08:13.269        0:   769:   769 I/Magisk          ] Automatic_brick_rescue: exec [post-fs-data.sh]
+[ 1970-01-19T17:08:13.278        0:   769:   769 I/Magisk          ] zygisk_lsposed: exec [post-fs-data.sh]
+[ 1970-01-19T17:08:13.284        0:   762:   764 I/Magisk          ] * Loading modules
+[ 1970-01-19T17:08:13.284        0:   762:   764 I/Magisk          ] RescueBrick: loading mount files
+[ 1970-01-19T17:08:13.284        0:   762:   764 I/Magisk          ] Clash_For_Magisk: loading mount files
+[ 2022-05-24T12:17:50.895        0:   778:   778 D/OplusUtils      ] OplusUtils [83]: 
+[ 2022-05-24T12:17:50.912        0:   778:   778 D/AndroidRuntime  ] >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+[ 2022-05-24T12:17:50.924        0:   778:   778 I/AndroidRuntime  ] Using default boot image
+[ 2022-05-24T12:17:50.924        0:   778:   778 I/AndroidRuntime  ] Leaving lock profiling enabled
+[ 2022-05-24T12:17:51.082        0:   778:   778 D/lspd            ] Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+[ 2022-05-24T12:17:51.083        0:   778:   778 D/lspd            ] I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+[ 2022-05-24T12:17:51.181        0:   841:   841 I/Magisk          ] zygisk32: replaced com/android/internal/os/Zygote#nativeForkAndSpecialize
+[ 2022-05-24T12:17:51.181        0:   841:   841 I/Magisk          ] zygisk32: replaced com/android/internal/os/Zygote#nativeForkSystemServer
+[ 2022-05-24T12:17:51.181        0:   841:   841 I/Magisk          ] zygisk32: replaced com/android/internal/os/Zygote#nativeSpecializeAppProcess
+[ 2022-05-24T12:17:51.181        0:   839:   839 I/Magisk          ] zygisk64: replaced com/android/internal/os/Zygote#nativeForkAndSpecialize
+[ 2022-05-24T12:17:51.181        0:   839:   839 I/Magisk          ] zygisk64: replaced com/android/internal/os/Zygote#nativeForkSystemServer
+[ 2022-05-24T12:17:51.181        0:   839:   839 I/Magisk          ] zygisk64: replaced com/android/internal/os/Zygote#nativeSpecializeAppProcess
+[ 2022-05-24T12:17:51.186        0:   778:   778 W/lspd            ] JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+[ 2022-05-24T12:17:51.222        0:   778:   778 D/AndroidRuntime  ] Calling main entry org.lsposed.lspd.Main
+[ 2022-05-24T12:17:51.297        0:   778:   778 I/LSPosedService  ] starting server...
+[ 2022-05-24T12:17:51.315        0:   778:   778 I/LSPosedService  ] version 1.8.3 (6552)
+[ 2022-05-24T12:17:51.375        0:   778:  1097 I/LSPosedLogcat   ] start running
+[ 2022-05-24T12:17:51.376        0:   778:  1097 I/LSPosedLogcat   ] New log file: /data/adb/lspd/log/verbose_2022-05-24T12:17:51.375.log
+[ 2022-05-24T12:17:51.376        0:   778:  1097 I/LSPosedLogcat   ] New log file: /data/adb/lspd/log/modules_2022-05-24T12:17:51.376.log
+[ 2022-05-24T12:17:51.454        0:   778:   778 W/LSPosedDex2Oat  ] Check mount failed for /apex/com.android.art/bin/dex2oat32
+[ 2022-05-24T12:17:51.459        0:  1140:   778 I/LSPosed         ] Enable dex2oat wrapper
+[ 2022-05-24T12:17:51.477        0:   778:  1161 I/LSPosedDex2Oat  ] Daemon start
+[ 2022-05-24T12:17:51.480        0:   778:   778 W/SQLiteCompatibilityWalFlags ] Cannot read global setting sqlite_compatibility_wal_flags - Application state not available
+[ 2022-05-24T12:17:51.709        0:   778:   778 E/lspd            ] idmap2: 
+[ 2022-05-24T12:17:51.709        0:   778:   778 W/OverlayConfig   ] 'idmap2 create-multiple' failed: no mutable="false" overlays targeting "android" will be loaded
+[ 2022-05-24T12:17:51.746        0:   778:   778 W/AssetManager    ] createSystemAssetsInZygoteLocked add oplus idmapPath: /data/resource-cache/my_product@overlay@oplus_framework_res_overlay.display.product.20627.apk@idmap
+[ 2022-05-24T12:17:51.774        0:   778:   778 E/RefClass        ] java.lang.reflect.InvocationTargetException
+[ 2022-05-24T12:17:51.774        0:   778:   778 I/OneTrace        ] Mark active for pid=778? true
+[ 2022-05-24T12:17:51.831        0:   778:   778 I/LSPosedService  ] service package is not started, wait 1s.
+[ 2022-05-24T12:17:52.108        0:   762:   764 I/Magisk          ] denylist: initializing internal data structures
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:CMCoreService]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:Security]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:heap_analysis]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:pushservice]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:remote]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:screenshare]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [cmb.pb/cmb.pb:subprocess]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:jobscheduler]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:live]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:mini]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:odex]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:photoedit]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:remote]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.hexin.plat.android.supremacy/com.hexin.plat.android.supremacy:safemode]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:downloader]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:h5game]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini1]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini2]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini3]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini4]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini5]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:mini_internal]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.sinovatech.unicom.ui/com.sinovatech.unicom.ui:remote]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:AlertDialogActivity]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:blesetting]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:faq]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:loader0]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:loader1]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:loguploadservice]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p0]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p1]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p2]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p3]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p4]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p5]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p6]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p7]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p8]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:p9]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:pushservice]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:rn]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.smarthome/com.huawei.smarthome:vmall]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.hilink.framework/com.huawei.hilink.framework]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.hilink.framework/com.huawei.hilink.framework:AlertDialogActivity]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.hilink.framework/com.huawei.hilink.framework:HilinkService]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.huawei.hilink.framework/com.huawei.hilink.framework:pushservice]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.lphtsccft/com.lphtsccft]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.lphtsccft/com.lphtsccft:news]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.lphtsccft/com.lphtsccft:xindun]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.lphtsccft/com.lphtsccft:xtest]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:cad]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:crash]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:dexsplash]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:docthumb]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:editor]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:fileselect]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:fileselector]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:gcmpush]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:ipc]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:lelinkps]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:mofficeservice]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:newpdfconverteractivity]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:newpdfconverterservice]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:note]
+[ 2022-05-24T12:17:52.111        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:onlineParams]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:parsefileservice]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:patch]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader1]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader10]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader11]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader12]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader13]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader14]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader15]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader16]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader17]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader18]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader19]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader20]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader3]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader4]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader5]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader6]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader7]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader8]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pdfreader9]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:phonetic]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation1]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation10]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation11]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation12]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation13]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation14]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation15]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation16]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation17]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation18]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation19]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation20]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation3]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation4]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation5]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation6]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation7]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation8]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:presentation9]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:pushservice]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:scan]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:screensharingsvc]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:shareplay]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:shortcuts]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:socket]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spellcheck]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet1]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet10]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet11]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet12]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet13]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet14]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet15]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet16]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet17]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet18]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet19]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet20]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet3]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet4]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet5]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet6]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet7]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet8]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:spreadsheet9]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:tts]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:widgetProvider]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer1]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer10]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer11]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer12]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer13]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer14]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer15]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer16]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer17]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer18]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer19]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer20]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer3]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer4]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer5]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer6]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer7]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer8]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/com.kingsoft.moffice_pro:writer9]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.kingsoft.moffice_pro/io.rong.push]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [io.github.vvb2060.mahoshojo/io.github.vvb2060.mahoshojo]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [isolated/io.github.vvb2060.mahoshojo:io.github.vvb2060.mahoshojo.maho.MahoService2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [io.github.vvb2060.mahoshojo/io.github.vvb2060.mahoshojo_zygote]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:extra]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:filedownloader]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:patch]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:permission]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pgmini1]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pgmini2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pgmini3]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pgmini4]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pgmini5]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pgmini_audio]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:push]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:pushservice]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:safe_mode]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:step_counter]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.pingan.carowner/com.pingan.carowner:znsdklog]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:assist]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:bluetooth]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:daemon]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:download]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:dppushservice]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:miniApp0]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:miniApp1]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:miniApp2]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:miniApp3]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:probe]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:pushservice]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [isolated/com.sankuai.meituan.dispatch.crowdsource:remotedetect:com.meituan.banma.shadow.RemoteService]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:traffic]
+[ 2022-05-24T12:17:52.112        0:   762:   764 I/Magisk          ] denylist add: [com.sankuai.meituan.dispatch.crowdsource/com.sankuai.meituan.dispatch.crowdsource:xhadow]
+[ 2022-05-24T12:17:52.167        0:  1420:  1420 I/Magisk          ] * Launching zygiskd64
+[ 2022-05-24T12:17:52.172        0:  1420:  1436 I/LSPosed         ] ZygiskCompanion: welcome to LSPosed!
+[ 2022-05-24T12:17:52.172        0:  1420:  1436 I/LSPosed         ] ZygiskCompanion: version v1.8.3 (6552)
+[ 2022-05-24T12:17:52.212     1000:  1371:  1371 I/LSPosed         ] Loading xposed for android/1000
+[ 2022-05-24T12:17:52.270     1000:  1371:  1371 I/LSPosed-Bridge  ] Loading module com.tsng.hidemyapplist from /data/app/~~1XAXrOg8TR2uJcRKCCmkpA==/com.tsng.hidemyapplist-UF7KSmcctgN0AxFH4gu3yg==/base.apk
+[ 2022-05-24T12:17:52.386        0:   762:  1007 I/Magisk          ] ** late_start service mode running
+[ 2022-05-24T12:17:52.386        0:   762:  1007 I/Magisk          ] * Running service.d scripts
+[ 2022-05-24T12:17:52.386        0:   762:  1007 I/Magisk          ] * Running module service scripts
+[ 2022-05-24T12:17:52.386        0:   762:  1007 I/Magisk          ] RescueBrick: exec [service.sh]
+[ 2022-05-24T12:17:52.423        0:   762:  1007 I/Magisk          ] Automatic_brick_rescue: exec [service.sh]
+[ 2022-05-24T12:17:52.470        0:   762:  1007 I/Magisk          ] zygisk_lsposed: exec [service.sh]
+[ 2022-05-24T12:17:52.481        0:   762:  1007 I/Magisk          ] Clash_For_Magisk: exec [service.sh]
+[ 2022-05-24T12:17:52.578     1000:  1371:  1371 I/LSPosed-Bridge  ]   Loading class com.tsng.hidemyapplist.xposed.XposedEntry
+[ 2022-05-24T12:17:52.594     1000:  1371:  1371 I/LSPosed-Bridge  ] Loading module com.jozein.xedgepro from /data/app/~~5IeO66EJy5r_zaoFGhtdxg==/com.jozein.xedgepro-PucJG8qVq0kSi8YnXm9aIQ==/base.apk
+[ 2022-05-24T12:17:52.597     1000:  1371:  1371 I/LSPosed-Bridge  ]   Loading class com.jozein.xedgepro.xposed.HookMain
+[ 2022-05-24T12:17:52.832        0:   778:   778 I/LSPosedService  ] service package is not started, wait 1s.
+[ 2022-05-24T12:17:52.960     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] Config initialized
+[ 2022-05-24T12:17:52.979     1000:  1371:  1371 I/LSPosed-Bridge  ] [XEdgePro] Xposed-edge-pro-v7.0.1. 
+    realme-RMX2202, RMX2202CN, Android 11, SDK 30, ROM: RMX2202_11_A.16(RKQ1.201105.002), SELinux enforced.
+[ 2022-05-24T12:17:52.986     1000:  1371:  1371 I/LSPosed-Bridge  ] [XEdgePro] Cannot load settings!
+[ 2022-05-24T12:17:53.018     1000:  1371:  1371 I/LSPosed-Bridge  ] [XEdgePro] System hooked.
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+[ 2022-05-24T12:17:54.833        0:   778:   778 I/LSPosedService  ] service package is not started, wait 1s.
+[ 2022-05-24T12:17:55.700     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] System hook installed (Version 73)
+[ 2022-05-24T12:17:55.700     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] Data directory is at /data/system/hide_my_applist_mipdhleadzafqknk
+[ 2022-05-24T12:17:55.700     1000:  1371:  1371 I/LSPosed-Bridge  ] [HMA Xposed] [INFO] Non-AOSP PMS com.android.server.pm.OplusPackageManagerService
+[ 2022-05-24T12:17:55.836     1000:  1371:  1858 I/LSPosed Bridge  ] binder received
+[ 2022-05-24T12:17:55.836        0:   778:   778 I/LSPosedService  ] sent service to bridge
+[ 2022-05-24T12:17:55.842        0:   778:  1035 I/LSPosedService  ] manager is not installed
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+[ 2022-05-24T12:18:01.296        0:   762:   764 I/Magisk          ] ** boot_complete triggered
+[ 2022-05-24T12:18:01.306        0:  4374:  4374 F/libc            ] Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 4374 (init), pid 4374 (init)
+[ 2022-05-24T12:18:01.331        0:  4374:  4374 F/libc            ] crash_dump helper failed to exec
+[ 2022-05-24T12:18:05.168    10317:  6096:  6096 I/LSPosed         ] Loading xposed for com.jozein.xedgepro/10317
+[ 2022-05-24T12:18:05.172    10317:  6096:  6096 I/LSPosed-Bridge  ] Loading module com.jozein.xedgepro from /data/app/~~5IeO66EJy5r_zaoFGhtdxg==/com.jozein.xedgepro-PucJG8qVq0kSi8YnXm9aIQ==/base.apk
+[ 2022-05-24T12:18:05.176    10317:  6096:  6096 I/LSPosed-Bridge  ]   Loading class com.jozein.xedgepro.xposed.HookMain
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+[ 2022-05-24T12:18:24.153        0:   778:  1032 I/LSPosed         ] verifyInstallerSignature: true
+[ 2022-05-24T12:18:24.157     2000:  9045:  9045 I/LSPosed         ] Loaded manager, skipping next steps
+[ 2022-05-24T12:18:24.210     2000:  9045:  9045 I/LSPosed         ] Found LSPosed Manager
+[ 2022-05-24T12:18:24.211     2000:  9045:  9045 I/LSPosed         ] Send binder to LSPosed Manager: true
+[ 2022-05-24T12:18:47.619     2000:  9615:  9615 I/LSPosed         ] Loaded manager, skipping next steps
+[ 2022-05-24T12:18:47.658     2000:  9615:  9615 I/LSPosed         ] Found LSPosed Manager
+[ 2022-05-24T12:18:47.659     2000:  9615:  9615 I/LSPosed         ] Send binder to LSPosed Manager: true
+[ 2022-05-24T12:18:56.790    10387:  9828:  9828 I/LSPosed         ] Loading xposed for github.tornaco.android.thanos.pro/10387
+[ 2022-05-24T12:18:56.792    10387:  9828:  9828 I/LSPosed-Bridge  ] Loading module github.tornaco.android.thanos.pro from /data/app/~~6NLz2fJAM5pPaMI05m3EjQ==/github.tornaco.android.thanos.pro-WPIv4Q9ijswsJudVVQQMiA==/base.apk
+[ 2022-05-24T12:18:56.940    10387:  9828:  9828 I/LSPosed-Bridge  ]   Loading class github.tornaco.android.thanos.services.xposed.XposedHookEntry
+[ 2022-05-24T12:18:57.029    10387:  9828:  9828 I/LSPosed-Bridge  ] hookSystemServiceRegistry, unhooks=[de.robv.android.xposed.XC_MethodHook$Unhook@b67e614]
+[ 2022-05-24T12:19:21.672        0:   778:  1146 W/LSPosedService  ] pm is dead
+[ 2022-05-24T12:19:21.672        0:   778:  9096 W/LSPosedService  ] am is dead
+[ 2022-05-24T12:19:21.672        0:   778:  1146 W/LSPosedService  ] um is dead
+[ 2022-05-24T12:19:21.672        0:   778:  9096 I/LSPosedService  ] service activity is dead. 
+[ 2022-05-24T12:19:21.672        0:   778:  9096 I/LSPosedService  ] clear ServiceManager
+[ 2022-05-24T12:19:21.672        0:   778:  9096 W/LSPosedService  ] system server died
+
+Logd maybe crashed (err=Socket operation on non-socket), retrying in 1s...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
+
+Logd crashed too many times, trying manually start...
+
+Logd maybe crashed (err=No such file or directory), retrying in 1s...
